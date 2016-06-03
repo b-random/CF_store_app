@@ -1,5 +1,10 @@
 <!--<h1>StaticPages#index</h1>-->
-<h1>Welcome to Bike Austin</h1>
-<h2>Your source for used bikes in Austin</h2>
+<h1>Welcome to Bike-a-palooza</h1>
+
+<%= image_tag('bike.jpg', class: "img-responsive index-pic") %>
+<!--erb img tag/ changes to html through the magic of rails-->
+<!--class syntax is slightly different in erb, no =, can still add multiple classes.  img-responsive is the bootstrap class to make responsive-->
+
+<h2>Your source for used bikes in Austin, TX</h2>
 <p>Welcome!  The date and time is <%= Time.now %></p>
 
