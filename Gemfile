@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 # Use sqlite3 as the database for Active Record
-group :developement, :test do
+group :development, :test do
 	gem 'sqlite3'
 end
 
