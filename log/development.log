@@ -2796,3 +2796,124 @@ Migrating to CreateProducts (20160613173524)
   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160613173524"]]
   [1m[35m (0.6ms)[0m  commit transaction
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-06-13 14:00:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (280.9ms)
+Completed 200 OK in 370ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/scaffolds.self-1c076c2d44272452b9005a5100f76ede20efc0a33ef73fd5eca90118a9d45b55.css?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/static_pages.self-05d36618d88e6ecf4e63282b8d49ce94cb93d5a0472c6a61ff89424d90f59ed7.css?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/application.self-88c4e4e63dbba47e4231d6b8bcee85cf2dc93913e13e1dd0a5633cdd91ec70f7.css?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/assets/bike-ed77f92431d29a8e6a138382b04493daa31fd6495bd4cef2566481f3efe187db.jpg" for ::1 at 2016-06-13 14:00:59 -0500
+
+
+Started GET "/products" for ::1 at 2016-06-13 14:01:25 -0500
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2016-06-13 16:10:42 -0500
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/static_pages.self-05d36618d88e6ecf4e63282b8d49ce94cb93d5a0472c6a61ff89424d90f59ed7.css?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/scaffolds.self-1c076c2d44272452b9005a5100f76ede20efc0a33ef73fd5eca90118a9d45b55.css?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/application.self-88c4e4e63dbba47e4231d6b8bcee85cf2dc93913e13e1dd0a5633cdd91ec70f7.css?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-13 16:10:42 -0500
+
+
+Started GET "/products" for ::1 at 2016-06-13 16:11:19 -0500
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-13 16:11:19 -0500
+
+
+Started GET "/assets/static_pages.self-05d36618d88e6ecf4e63282b8d49ce94cb93d5a0472c6a61ff89424d90f59ed7.css?body=1" for ::1 at 2016-06-13 16:11:19 -0500
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-13 16:11:19 -0500
+
+
+Started GET "/assets/application.self-88c4e4e63dbba47e4231d6b8bcee85cf2dc93913e13e1dd0a5633cdd91ec70f7.css?body=1" for ::1 at 2016-06-13 16:11:19 -0500
+
+
+Started GET "/assets/scaffolds.self-1c076c2d44272452b9005a5100f76ede20efc0a33ef73fd5eca90118a9d45b55.css?body=1" for ::1 at 2016-06-13 16:11:19 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-13 16:11:19 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-13 16:11:19 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-13 16:11:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-13 16:11:20 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-13 16:11:20 -0500
