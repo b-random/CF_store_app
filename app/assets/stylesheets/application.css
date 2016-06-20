@@ -13,6 +13,11 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
+=======
+/* Mostly: http://ryanfait.com/sticky-footer/ */
+
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 * {
 	margin: 0;
 }
@@ -24,7 +29,11 @@ html, body {
 
 .site-header {
   height: 70px;
+<<<<<<< HEAD
   background: #663300;
+=======
+  background: #00cccc;
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 }
 
 .head-nav {
@@ -42,13 +51,22 @@ html, body {
   display: block;
   padding: 8px;
   text-decoration: none;
+<<<<<<< HEAD
   color: #fff2e6;
+=======
+  color: white;
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 }
 /*displaying links as blocks make the whole block clickable*/
 
 .head-nav a:hover {
+<<<<<<< HEAD
 	background-color: #b35900;
 	color: #ff8000;
+=======
+	background-color: grey;
+	color: #00cccc;
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 }
 
 .page-wrap {
@@ -56,7 +74,10 @@ html, body {
   margin-top: -100px;
   /* equal to footer height */
   margin-bottom: -140px; 
+<<<<<<< HEAD
   background-color: #fff2e6;
+=======
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 }
 
 .content {
@@ -74,10 +95,17 @@ html, body {
 }
 
 .site-footer {
+<<<<<<< HEAD
   background: #663300;
+=======
+  background: #00cccc;
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 }
 
 .site-footer {
 	text-align: center;
+<<<<<<< HEAD
 	color: #fff2e6;
+=======
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 }

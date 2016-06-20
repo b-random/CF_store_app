@@ -1,16 +1,30 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   
 
+=======
+  resources :products
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
   get 'static_pages/about'
 
   get 'static_pages/contact'
 
+<<<<<<< HEAD
+=======
+  get 'static_pages/index'
+
+  get 'static_pages/index'
+
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'static_pages#index'
+<<<<<<< HEAD
        #static_pages is index
+=======
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

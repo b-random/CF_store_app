@@ -1,5 +1,6 @@
 == README
 
+<<<<<<< HEAD
 Drag your entire project folder to Sublime Text. Remember our project folder for our front end page? Pretty basic. We had HTML, CSS, JavaScript, and Images. The only page that we saw on our browser was our HTML page. A Rails application is more complicated.
 
 Open up the folder called app. Now open up assets. The folders in here should look familiar: images , javascripts , and stylesheets. But where’s your HTML?
@@ -13,3 +14,7 @@ In the body of the document, you’ll see this:
 
 <%= yield %>
 The yield method inserts the contents of each page of your application into the site layout.
+=======
+This README is for my first ruby on rails app with careerfoundry.com
+
+>>>>>>> 4142bde1a6560d184539171d7f93cb8df88da8d5
