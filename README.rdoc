@@ -1,3 +1,15 @@
 == README
 
-This README is for my first ruby on rails app with careerfoundry.com
+Drag your entire project folder to Sublime Text. Remember our project folder for our front end page? Pretty basic. We had HTML, CSS, JavaScript, and Images. The only page that we saw on our browser was our HTML page. A Rails application is more complicated.
+
+Open up the folder called app. Now open up assets. The folders in here should look familiar: images , javascripts , and stylesheets. But where’s your HTML?
+
+We don’t really have much yet, but when we do, the pages that you will see in the browser will go in “views.” Open that folder now. You’ll see a folder called layouts. As you might have guessed, the files inside your layouts folder contain the layouts, or templates, of your pages. Find the file application.html.erb inside. Take a look at that file.
+
+But then, there’s some weird syntax that looks like this: <%= %>. That’s the .erb part. "ERB" stands for "embedded Ruby". It's a way to include actual Ruby code (as you learned it in the previous lessons) right in the middle of your HTML files. You can embed Ruby code between tags that look like this: <% %> and it will just execute. Add the =, like so: <%= %> and the Ruby between the tags will render the output as HTML. (This is important to remember! So take a note about this or bookmark it.) In just a moment you will see an example of what that means.
+
+You can define styles for your entire app, such as where your navigation bar goes, inside application.html.erb file, and it will appear on every page in your view folder. It's the "layout" of your app. That means whether you access my-website.com or my-website.com/about or my-website.com/contact the application.html.erb file will always be the one rendered in the user's browser (unless you specify a different layout file, but we are going to ignore that for simplicity reasons for now.)
+In the body of the document, you’ll see this:
+
+<%= yield %>
+The yield method inserts the contents of each page of your application into the site layout.
